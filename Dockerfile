@@ -1,6 +1,9 @@
 FROM debian:buster
-COPY ./srcs/start.sh .
-COPY ./srcs/config.inc.php ./tmp/
-COPY ./srcs/nginx.conf ./tmp/
-CMD bash
 
+COPY srcs/start.sh ./
+COPY srcs/config.inc.php ./
+COPY srcs/nginx-host-conf ./
+
+CMD bash start.sh
+
+EXPOSE 80 443
