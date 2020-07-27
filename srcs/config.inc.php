@@ -1,6 +1,6 @@
 <?php
 
-$cfg['blowfish_secret'] = 'uB;XUoFT:Phn:0lBFW4zn4iVIS[ckV}z';
+$cfg['blowfish_secret'] = 'hO:0EldegRf9xxO]Mcs,R,sc,UgejjWF';
 
 $i = 0;
 $i++;
